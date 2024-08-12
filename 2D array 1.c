@@ -18,7 +18,7 @@ int main(){
        for(int j = 0; j < col; j++){
            printf("%d\t", matrix[i][j]);
         }
-        printf("\n");
+        printf("\n\n");
     }
     return 0;
 }
@@ -35,5 +35,6 @@ Enter the number [1][1] :5
 Enter the number [1][2] :6
 The matrix: 
 1       2       3
+
 4       5       6
 */
