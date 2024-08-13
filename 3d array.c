@@ -17,7 +17,7 @@ int main() {  // Entry point of the program. The execution starts here.
 
     // Nested loop to input values into the 3D array.
     for(int i = 0; i < layers; i++) {  // Loops over each layer.
-        printf("Enter the numbers for Layer '%d' (default Layer(%d))\n", i+1);  // Prompts the user for the current layer number (1-based index).
+        printf("Enter the numbers for Layer '%d' (default Layer %d)\n", i+1);  // Prompts the user for the current layer number (1-based index).
         for(int j = 0; j < rows; j++) {  // Loops over each row in the current layer.
             for(int k = 0; k < columns; k++) {  // Loops over each column in the current row.
                 printf("Enter the number [%d][%d][%d] = ", i, j, k);  // Prompts the user to enter a value for the current position.
@@ -51,7 +51,7 @@ Enter the number of layers = 3
 Enter the number of rows = 3
 Enter the number of columns = 3
 
-Enter the numbers for Layer '1' (default Layer(0))
+Enter the numbers for Layer '1' (default Layer 0)
 Enter the number [0][0][0] = 1
 Enter the number [0][0][1] = 2
 Enter the number [0][0][2] = 3
@@ -62,7 +62,7 @@ Enter the number [0][2][0] = 7
 Enter the number [0][2][1] = 8
 Enter the number [0][2][2] = 9
 
-Enter the numbers for Layer '2' (default Layer(1))
+Enter the numbers for Layer '2' (default Layer 1)
 Enter the number [1][0][0] = 10
 Enter the number [1][0][1] = 11
 Enter the number [1][0][2] = 12
@@ -73,7 +73,7 @@ Enter the number [1][2][0] = 16
 Enter the number [1][2][1] = 17
 Enter the number [1][2][2] = 18
 
-Enter the numbers for Layer '3' (default Layer(2))
+Enter the numbers for Layer '3' (default Layer 2)
 Enter the number [2][0][0] = 19
 Enter the number [2][0][1] = 20
 Enter the number [2][0][2] = 21
