@@ -11,7 +11,7 @@ int main() {  // Entry point of the program. The execution starts here.
     
     printf("Enter the number of columns = ");  // Prompts the user to enter the number of columns.
     scanf("%d", &columns);  // Reads the user input for the number of columns and stores it in the 'columns' variable.
-    printf("\n");
+    printf("-------------------------------------------------\n");
     
     int array[layers][rows][columns];  // Declares a 3D array with dimensions specified by the user.
 
@@ -26,7 +26,7 @@ int main() {  // Entry point of the program. The execution starts here.
         }
       printf("\n");
     }
-    printf("\n");
+    printf("-------------------------------------------------\n");
 
     // Nested loop to print the values from the 3D array.
     for(int i = 0; i < layers; i++) {  // Loops over each layer.
@@ -50,8 +50,8 @@ int main() {  // Entry point of the program. The execution starts here.
 Enter the number of layers = 3
 Enter the number of rows = 3
 Enter the number of columns = 3
-
-Enter the numbers for Layer '1' (default Layer 0)
+-------------------------------------------------
+Enter the numbers for Layer '1'(default Layer 0)
 Enter the number [0][0][0] = 1
 Enter the number [0][0][1] = 2
 Enter the number [0][0][2] = 3
@@ -62,7 +62,7 @@ Enter the number [0][2][0] = 7
 Enter the number [0][2][1] = 8
 Enter the number [0][2][2] = 9
 
-Enter the numbers for Layer '2' (default Layer 1)
+Enter the numbers for Layer '2'(default Layer 1)
 Enter the number [1][0][0] = 10
 Enter the number [1][0][1] = 11
 Enter the number [1][0][2] = 12
@@ -73,7 +73,7 @@ Enter the number [1][2][0] = 16
 Enter the number [1][2][1] = 17
 Enter the number [1][2][2] = 18
 
-Enter the numbers for Layer '3' (default Layer 2)
+Enter the numbers for Layer '3'(default Layer 2)
 Enter the number [2][0][0] = 19
 Enter the number [2][0][1] = 20
 Enter the number [2][0][2] = 21
@@ -84,6 +84,7 @@ Enter the number [2][2][0] = 25
 Enter the number [2][2][1] = 26
 Enter the number [2][2][2] = 27
 
+-------------------------------------------------
 Layer 1:
    1       2       3
 
@@ -106,4 +107,5 @@ Layer 3:
   22      23      24
 
   25      26      27
+
 */
