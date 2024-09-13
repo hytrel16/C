@@ -8,6 +8,9 @@ private:
 public:
     Box(T value) : value(value) {}
     void setvalue(T value) {
+        // this->value = value; is used within a class method
+        // to distinguish between a member variable (value) and 
+        // a method parameter with the same name (value)
         this->value = value;
     }
 
