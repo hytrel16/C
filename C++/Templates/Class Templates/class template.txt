@@ -15,6 +15,14 @@ public:
     void display();
 };
 
+Default Template Arguments: You can provide default values for template parameters
+
+template <typename T = int>
+class Example {
+    // Class members
+};
+
+
 - template <typename T>: This declares a template where T is a placeholder for the data type.
 - ClassName: This is the name of the class template.
 - T: This is the type parameter used in the class.
