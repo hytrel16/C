@@ -1,0 +1,3 @@
+In C++, function templates allow you to write generic functions that can operate on different data types without repeating 
+the same code for each type. This is particularly useful for functions like sorting, swapping, and searching that can be
+applied to many data types.
