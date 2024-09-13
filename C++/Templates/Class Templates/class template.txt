@@ -21,5 +21,10 @@ public:
 
 
 Generic Pair Class:-
-   A generic Pair class is a template-based class in C++ that can hold two values of possibly different types. The class is generic, meaning that it can work with any data types, specified when creating objects of the class.
+   A generic Pair class is a template-based class in C++ that can hold two values of possibly 
+different types. The class is generic, meaning that it can work with any data types, specified
+when creating objects of the class.
 
+Generic Container Class:-
+   A generic Container class is a template class in C++ that can store one or more elements of 
+a single type. It is flexible and can be adapted to hold various types of data.
