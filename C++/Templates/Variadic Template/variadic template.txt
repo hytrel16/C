@@ -6,8 +6,8 @@ can access the values by an index, and can slice the templates too.
 Syntax
 A variadic template can take zero or more template arguments. The syntax involves a template parameter pack which is denoted by '...'.
 
-template<typename... Args>
-return_type function_name(Args... args) {
+template<typename... Args>                    // Args is a parameter pack
+return_type function_name(Args... args) {     // args is a function parameter pack
     // Function implementation
 }
 
